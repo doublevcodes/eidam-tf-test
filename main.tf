@@ -1,7 +1,7 @@
 
 terraform {
   backend "http" {
-    address = "https://terraform-state.eidam.cf/github/doublevcodes/eidam-tf-test" # dynamic /user/:email/*
+    address = "https://terraform-state.eidam.cf/github/doublevcodes/eidam-tf-test/main" # dynamic /user/:email/*
   }
 }
 
